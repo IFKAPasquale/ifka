@@ -1,1 +1,60 @@
-# ifka
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benvenuti alla Pagina Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f6f6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .container {
+            text-align: center;
+            margin: 20px;
+        }
+        .content {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        p {
+            font-size: 18px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benvenuti alla Pagina Home</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Benvenuti nel nostro mondo colorato!</h2>
+            <p>Qui troverete un sacco di contenuti interessanti e divertenti.</p>
+            <a href="#" class="btn">Scopri di più</a>
+        </div>
+    </div>
+</body>
+</html>
